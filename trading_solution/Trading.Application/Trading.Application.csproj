@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Application layer orchestrating domain logic, use‑cases and services.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trading.Domain\Trading.Domain.csproj" />
+    <ProjectReference Include="..\Trading.Contracts\Trading.Contracts.csproj" />
+  </ItemGroup>
+</Project>
