@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Contracts are plain DTOs used across the solution. -->
+    <Description>Wire contracts for the TCP protocol.</Description>
+    <!-- Inherit common props from Directory.Build.props (TargetFramework, Nullable, etc.) -->
+  </PropertyGroup>
+</Project>
