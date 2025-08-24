@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch Client",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Trading.Client.Wpf/bin/Debug/net8.0-windows7.0/Trading.Client.Wpf.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}/Trading.Client.Wpf",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Launch Venue_A",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Venue_A/bin/Debug/net8.0/Venue_A.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Venue_A",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Launch Venue_B",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Venue_B/bin/Debug/net8.0/Venue_B.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Venue_B",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Launch Venue_C",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Venue_C/bin/Debug/net8.0/Venue_C.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Venue_C",
+      "stopAtEntry": false
+    }
+  ]
+}

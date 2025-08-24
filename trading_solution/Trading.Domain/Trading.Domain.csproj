@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Core domain entities and business rules for the trader application.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trading.Contracts\Trading.Contracts.csproj" />
+  </ItemGroup>
+</Project>

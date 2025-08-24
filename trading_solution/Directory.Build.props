@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <!-- Shared configuration for all projects in the solution -->
+  <PropertyGroup>
+    <!-- Target .NET 8 for all class libraries; WPF project will override its framework -->
+    <TargetFramework>net8.0</TargetFramework>
+    <!-- Enable nullable reference types and treat warnings as errors to encourage clean code -->
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <!-- Produce deterministic builds and include source link info where supported -->
+    <Deterministic>true</Deterministic>
+    <LangVersion>12.0</LangVersion>
+  </PropertyGroup>
+</Project>

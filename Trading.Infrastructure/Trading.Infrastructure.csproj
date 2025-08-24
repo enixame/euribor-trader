@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Infrastructure layer responsible for IO (TCP client), serialization and configuration.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trading.Contracts\Trading.Contracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Bring in configuration, hosting and logging packages.  These packages are part of the shared SDK in .NET >= 6. -->
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0-preview.5.23302.2" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0-preview.5.23302.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0-preview.5.23302.2" />
+  </ItemGroup>
+</Project>
