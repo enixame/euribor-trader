@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": ["build", "Trading.sln", "-c", "Debug"],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "run-client",
+            "command": "dotnet",
+            "type": "process",
+            "args": ["run", "--project", "Trading.Client.Wpf"],
+            "dependsOn": ["build"],
+            "problemMatcher": []
+        },
+        {
+            "label": "run-venues",
+            "command": "bash",
+            "type": "process",
+            "args": ["-c", "./scripts/run-venues.sh"],
+            "problemMatcher": []
+        }
+    ]
+}
