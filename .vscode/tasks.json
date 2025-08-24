@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Trading.sln"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "test",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "test",
+        "${workspaceFolder}/Trading.sln"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "run-client",
+      "command": "sh",
+      "type": "process",
+      "args": [
+        "-c",
+        "scripts/run-client.sh"
+      ],
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "run-venues",
+      "command": "sh",
+      "type": "process",
+      "args": [
+        "-c",
+        "scripts/run-venues.sh"
+      ],
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ]
+}
