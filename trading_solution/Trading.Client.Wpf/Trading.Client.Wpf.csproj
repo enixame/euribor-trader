@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trading.Application\Trading.Application.csproj" />
+    <ProjectReference Include="..\Trading.Domain\Trading.Domain.csproj" />
+    <ProjectReference Include="..\Trading.Infrastructure\Trading.Infrastructure.csproj" />
+    <ProjectReference Include="..\Trading.Contracts\Trading.Contracts.csproj" />
+  </ItemGroup>
+</Project>
